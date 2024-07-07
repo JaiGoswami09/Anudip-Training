@@ -1,0 +1,23 @@
+package patternLoops;
+
+import java.util.Scanner;
+
+public class SquareFillPattern {
+	
+	@SuppressWarnings({ "unused", "resource" })
+	public static void main(String[] args) {
+		   int i;
+		   int j;
+	       Scanner scn = new Scanner(System.in);
+	       System.out.println("Enter A Number: ");
+	       int number = scn.nextInt();
+	       
+	       for (i=1; i<=number; i++) {
+	    	   for (j=1; j<=number; j++) {
+	    		   System.out.print("* ");
+	    	   }
+	    	   System.out.println();
+	       }
+	       
+		}
+	}
